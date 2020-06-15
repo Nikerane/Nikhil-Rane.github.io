@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  max-width: 40%;
+  max-width: 30%;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -147,7 +147,7 @@ body {
 .card-jobtitle {
   position: absolute;
   bottom: 0;
-  font-size: 11px;
+  font-size: 12px;
   white-space: nowrap;
   font-weight: 500;
   opacity: 0.7;
