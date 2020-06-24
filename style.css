@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -399,4 +401,43 @@ body {
   font-family: "Jost", sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+
+li, a, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+   text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content:flex-end;
+   align-items: center;
+   padding: 10px 3%;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0; 
+}
+
+.nav__links li a:hover {
+  color: rgb(146, 13, 207); 
+  transition: 1s;
 }
