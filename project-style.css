@@ -104,10 +104,10 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 .cont.s--el-active .el__bg:after {
   -webkit-transition: opacity 0.5s 1.4s;
@@ -159,6 +159,7 @@ body {
   pointer-events: none;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
+  color:#fff;
 }
 .el.s--active .el__content {
   z-index: 2;
@@ -171,7 +172,17 @@ body {
   text-transform: uppercase;
   font-size: 40px;
   color: #fff;
+  padding-left: 30px;
 }
+
+.para{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+font-size: large;
+}
+
 .el__close-btn {
   z-index: -1;
   position: absolute;
@@ -265,7 +276,7 @@ body {
   width: 100%;
 }
 .el__index-back {
-  color: #2f3840;
+  color: #1e3346;
   opacity: 0;
   -webkit-transition: opacity 0.25s 0.25s;
   transition: opacity 0.25s 0.25s;
@@ -536,8 +547,8 @@ header{
 }
 
 .videoContainer {
-  width: 380px;
-  height: 163px;
+  width: 400px;
+  height: 253px;
   position: relative;
   overflow: hidden;
   background: #000;
@@ -547,3 +558,28 @@ header{
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   margin: 50px auto 0;
 }
+
+.PicContainer1 {
+  width: 400px;
+  height: 213px;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 50px auto 0;
+}
+
+.PicContainer2 {
+  width: 210px;
+  height: 153px;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 50px auto 0;
+}
+
