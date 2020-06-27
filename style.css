@@ -6,10 +6,12 @@
 }
 
 body {
-  color: #2b2c48;
+  color: #002e1c;
   font-family: "Jost", sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1566738780863-f9608f88f3a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);
+  background-image: url(https://images.unsplash.com/photo-1590212151175-e58edd96185b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
   background-repeat: no-repeat;
+  filter: contrast(100px);
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -36,7 +38,7 @@ body {
   -webkit-box-direction: normal;
           flex-direction: column;
   border-radius: 10px;
-  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.137);
 }
 
 .card[data-state="#about"] {
@@ -263,7 +265,7 @@ body {
 }
 .card-buttons button.is-active, .card-buttons button:hover {
   color: #2b2c48;
-  border-bottom: 3px solid #8a84ff;
+  border-bottom: 3px solid #0c88019c;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(127, 199, 231, 0)), color-stop(44%, rgba(207, 204, 255, 0.2)), to(rgba(211, 226, 255, 0.4)));
   background: linear-gradient(to bottom, rgba(127, 199, 231, 0) 0%, rgba(207, 204, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
 }
@@ -430,7 +432,7 @@ header{
 
 .nav__links li{
   display: inline-block;
-  padding: 0 30px;
+  padding: 0 22px;
 }
 
 .nav__links li a {
@@ -438,6 +440,6 @@ header{
 }
 
 .nav__links li a:hover {
-  color: rgb(146, 13, 207); 
+  color: rgb(0, 77, 6); 
   transition: 1s;
 }
