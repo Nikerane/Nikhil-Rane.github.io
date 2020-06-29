@@ -143,9 +143,9 @@ body {
   transition: all 0.5s;
 }
 .el__heading {
-  color: #fff;
+  color:whitesmoke;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
 }
 .el__content {
   z-index: -1;
@@ -368,8 +368,8 @@ font-size: large;
           transition-delay: 0.1s;
 }
 .el:nth-child(2) .el__bg {
-  -webkit-transform: translate3d(-50%, -5%, 0);
-          transform: translate3d(-50%, -5%,0);
+  -webkit-transform: translate3d(-53%, -5%, 0);
+          transform: translate3d(-53%, -5%,0);
 }
 .el:nth-child(2) .el__bg:before {
   -webkit-transition-delay: 0.1s;
@@ -396,14 +396,14 @@ font-size: large;
           transition-delay: 0.2s;
 }
 .el:nth-child(3) .el__bg {
-  -webkit-transform: translate3d(-50.4%, 5%, 0);
-          transform: translate3d(-50.4%, 5%, 0);
+  -webkit-transform: translate3d(-70.4%, -2%, 0);
+          transform: translate3d(-70.4%, -2%, 0);
 }
 .el:nth-child(3) .el__bg:before {
   -webkit-transition-delay: 0.2s;
           transition-delay: 0.2s;
-  background-image: url("https://images.unsplash.com/photo-1550432163-9cb326104944?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9");
-  filter: blur(0.5);
+  background-image: url(https://images.unsplash.com/photo-1535378917042-10a22c95931a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+  
 }
 .el:nth-child(4) {
   -webkit-transform: translate3d(315.625%, 0, 0);
@@ -542,21 +542,22 @@ header{
 }
 
 .nav__links li a:hover {
-  color: rgb(146, 13, 207); 
+  color: rgba(2, 85, 9, 0.692); 
   transition: 1s;
 }
 
 .videoContainer {
   width: 400px;
-  height: 253px;
-  position: relative;
+  height: 273px;
+  position:  absolute;
   overflow: hidden;
-  background: #000;
+  background: rgba(0, 0, 0, 0.26);
   color: #ccc;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  margin: 50px auto 0;
+  margin: 10px auto 0;
+  
 }
 
 .PicContainer1 {
@@ -583,3 +584,14 @@ header{
   margin: 50px auto 0;
 }
 
+.PicContainer3 {
+  width: 100%;
+  height: 273px;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.185);
+  border-radius: 10px;
+  margin-left: 60%;
+  margin-top: 0%;
+  padding: 0%;
+}
