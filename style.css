@@ -8,9 +8,8 @@
 body {
   color: #002e1c;
   font-family: "Jost", sans-serif;
-  background-image: url(https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?cs=srgb&dl=black-computer-keyboard-on-black-table-3815729.jpg&fm=jpg);
+  background-image: url(https://images.pexels.com/photos/1601217/pexels-photo-1601217.jpeg?cs=srgb&dl=quadcopter-on-wooden-surface-1601217.jpg&fm=jpg);
   background-repeat: no-repeat;
-  filter: contrast(100px);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -411,6 +410,7 @@ li, a, button{
   font-size: 20px;
   color: #edf0f1;
    text-decoration: none;
+   
 }
 
 header{
@@ -436,6 +436,14 @@ header{
 
 .nav__links li a {
   transition: all 0.3s ease 0; 
+  text-shadow: 00.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
 }
 
 .nav__links li a:hover {
