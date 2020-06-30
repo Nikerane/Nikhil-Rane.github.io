@@ -436,7 +436,7 @@ header{
 
 .nav__links li a {
   transition: all 0.3s ease 0; 
-  text-shadow: 00.05em 0 black,
+  text-shadow: 00.04em 0 black,
   0 0.05em black,
   -0.05em 0 black,
   0 -0.05em black,
