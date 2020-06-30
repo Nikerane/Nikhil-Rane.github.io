@@ -146,6 +146,14 @@ body {
   color:whitesmoke;
   text-transform: uppercase;
   font-size: 20px;
+  text-shadow: 00.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
 }
 .el__content {
   z-index: -1;
@@ -542,7 +550,7 @@ header{
 }
 
 .nav__links li a:hover {
-  color: rgba(2, 85, 9, 0.692); 
+  color:#2b2c48; 
   transition: 1s;
 }
 
