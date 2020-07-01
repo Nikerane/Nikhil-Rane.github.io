@@ -416,8 +416,8 @@ li, a, button{
 header{
   display: flex;
   justify-content:flex-end;
-   align-items: center;
-   padding: 10px 3%;
+  align-items: center;
+  padding: 10px 3%;
 }
 
 .logo{
@@ -436,14 +436,7 @@ header{
 
 .nav__links li a {
   transition: all 0.3s ease 0; 
-  text-shadow: 00.04em 0 black,
-  0 0.05em black,
-  -0.05em 0 black,
-  0 -0.05em black,
-  -0.05em -0.05em black,
-  -0.05em 0.05em black,
-  0.05em -0.05em black,
-  0.05em 0.05em black;
+  
 }
 
 .nav__links li a:hover {
