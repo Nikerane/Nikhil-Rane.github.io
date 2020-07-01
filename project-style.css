@@ -603,3 +603,7 @@ header{
   margin-top: 0%;
   padding: 0%;
 }
+
+.color{
+  color: rgba(10, 6, 250, 0.767);
+}
