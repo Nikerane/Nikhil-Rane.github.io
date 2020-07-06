@@ -573,3 +573,13 @@ header{
 .nav__links:hover{
   font-weight: 1900;
 }
+
+@media only screen and (max-width: 500px){
+  .cssgrid-collection__image {
+    display: none;
+  }
+  h1{
+    font-size: 35px;
+  }
+}
+

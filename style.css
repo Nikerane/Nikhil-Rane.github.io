@@ -18,12 +18,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  overflow-y: auto;
 }
 
 .card {
   max-width: 350px;
   margin: auto;
-  overflow-y: auto;
+  overflow-y: hidden;
   position: relative;
   z-index: 1;
   overflow-x: hidden;
@@ -442,4 +443,24 @@ header{
 .nav__links li a:hover {
   color: #2b2c48;; 
   transition: 1s;
+}
+
+
+.heading {
+  color: #eee;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0; 
+  width:100%; 
+  text-align: center;
+  color: white;
+  animation-timing-function: ease;
+}
+
+@media only screen and (max-width: 500px){
+  .heading{
+    display: none;
+  }
 }
