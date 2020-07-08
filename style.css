@@ -8,7 +8,7 @@
 body {
   color: #002e1c;
   font-family: "Jost", sans-serif;
-  background-image: url(https://images.pexels.com/photos/1601217/pexels-photo-1601217.jpeg?cs=srgb&dl=quadcopter-on-wooden-surface-1601217.jpg&fm=jpg);
+  background-image: url(./assets/images/robotics.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -451,6 +451,7 @@ header{
   font-size: 15px;
   font-weight: 300;
   text-transform: uppercase;
+  font-style: italic;
   position: fixed;
   bottom: 0; 
   width:100%; 

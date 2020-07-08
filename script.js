@@ -87,9 +87,8 @@ const resolver = {
 
 const strings = [
 ' "It always seems impossible until it is done. - Nelson Mandela ',
-' "I could either watch it happen or be a part of it." - Elon Musk',
-' "If I have the belief that I can do it, I shall surely acquire the capacity to do it even if I may not have it at the beginning." - Mahatma Gandhi',
 '“Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” ― Albert Einstein',
+' “Sometimes it is the people no one can imagine anything of who do the things no one can imagine.” ― Alan Turing',
 '......'];
 
 
@@ -121,7 +120,7 @@ function callback() {
 
     let nextOptions = Object.assign({}, options, { resolveString: strings[counter] });
     resolver.resolve(nextOptions, callback);
-  }, 8000);
+  }, 10000);
 }
 
 resolver.resolve(options, callback);
